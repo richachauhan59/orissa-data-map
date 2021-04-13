@@ -1,3 +1,27 @@
-.geojson{
-    color: green
+.Data {
+    display: flex;
+    flex-direction: row;
+}
+
+.dataPanel{
+    height: 80vh;
+    width: 54vh ;
+    background-color: #cea32c47;
+    border: black solid 2px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: large;
+  }
+
+table{
+    width: 54vh ;
+}
+
+tr > td:first-child{
+    font-weight: 600;
+    padding-left: 10px;
 }
