@@ -66,7 +66,7 @@ tr > td:nth-child(2) {
   }
   .Map{
     height: 80vh;
-    zoom: 0.40;
+    zoom: 0.60;
   }
 }
 
