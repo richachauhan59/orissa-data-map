@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/orissa-data-map/static/css/main.3e0e0eb4.chunk.css",
-    "main.js": "/orissa-data-map/static/js/main.785af0b0.chunk.js",
-    "main.js.map": "/orissa-data-map/static/js/main.785af0b0.chunk.js.map",
+    "main.js": "/orissa-data-map/static/js/main.92ee98a2.chunk.js",
+    "main.js.map": "/orissa-data-map/static/js/main.92ee98a2.chunk.js.map",
     "runtime-main.js": "/orissa-data-map/static/js/runtime-main.9354eded.js",
     "runtime-main.js.map": "/orissa-data-map/static/js/runtime-main.9354eded.js.map",
     "static/css/2.c1e28d34.chunk.css": "/orissa-data-map/static/css/2.c1e28d34.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.dfd42dbc.chunk.js",
     "static/css/main.3e0e0eb4.chunk.css",
-    "static/js/main.785af0b0.chunk.js"
+    "static/js/main.92ee98a2.chunk.js"
   ]
 }
