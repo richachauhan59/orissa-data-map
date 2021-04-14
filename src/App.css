@@ -34,9 +34,7 @@ tr > td:nth-child(2) {
 .header {
   background-image: linear-gradient(45deg, #110c50f2, #131514ed);
   justify-content: center;
-  margin-bottom: 50px;
   color: white;
-  padding: 20px;
 }
 
 /* .tooltip{
@@ -56,6 +54,12 @@ tr > td:nth-child(2) {
     /* width: 30%; */
     min-height: 100px;
   }
+  .Title{
+    font-size: 1em;
+  }
+  .header{
+    padding: 20px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -67,6 +71,12 @@ tr > td:nth-child(2) {
   .dataPane {
     /* width: 30%; */
     min-height: 100px;
+  }
+  .Title{
+    font-size: 1em;
+  }
+  .header{
+    padding: 20px;
   }
 }
 
@@ -81,6 +91,13 @@ tr > td:nth-child(2) {
   }
   .dataPane {
     width: 30%;
+  }
+  .Title{
+    font-size: 2em;
+  }
+  .header{
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -97,6 +114,13 @@ tr > td:nth-child(2) {
   }
   .dataPane {
     width: 30%;
+  }
+  .Title{
+    font-size: 2em;
+  }
+  .header{
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }
 
