@@ -63,6 +63,7 @@ tr > td:nth-child(2) {
   }
   .header{
     padding: 20px;
+    padding-top: 10px;
   }
   .Map{
     height: 80vh;
@@ -85,6 +86,7 @@ tr > td:nth-child(2) {
   }
   .header{
     padding: 20px;
+    padding-top: 10px;
   }
   .Map{
     height: 80vh;
