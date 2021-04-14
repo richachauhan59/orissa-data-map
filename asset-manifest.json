@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/orissa-data-map/static/css/main.a4b7ee2a.chunk.css",
-    "main.js": "/orissa-data-map/static/js/main.17db985f.chunk.js",
-    "main.js.map": "/orissa-data-map/static/js/main.17db985f.chunk.js.map",
+    "main.css": "/orissa-data-map/static/css/main.e0da9a22.chunk.css",
+    "main.js": "/orissa-data-map/static/js/main.5db748f2.chunk.js",
+    "main.js.map": "/orissa-data-map/static/js/main.5db748f2.chunk.js.map",
     "runtime-main.js": "/orissa-data-map/static/js/runtime-main.9354eded.js",
     "runtime-main.js.map": "/orissa-data-map/static/js/runtime-main.9354eded.js.map",
     "static/css/2.c1e28d34.chunk.css": "/orissa-data-map/static/css/2.c1e28d34.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.33bb6d89.chunk.js.map": "/orissa-data-map/static/js/3.33bb6d89.chunk.js.map",
     "index.html": "/orissa-data-map/index.html",
     "static/css/2.c1e28d34.chunk.css.map": "/orissa-data-map/static/css/2.c1e28d34.chunk.css.map",
-    "static/css/main.a4b7ee2a.chunk.css.map": "/orissa-data-map/static/css/main.a4b7ee2a.chunk.css.map",
+    "static/css/main.e0da9a22.chunk.css.map": "/orissa-data-map/static/css/main.e0da9a22.chunk.css.map",
     "static/js/2.dfd42dbc.chunk.js.LICENSE.txt": "/orissa-data-map/static/js/2.dfd42dbc.chunk.js.LICENSE.txt",
     "static/media/data_mgnregs_odisha_2019-20_pc_expenditure.78b1373c.csv": "/orissa-data-map/static/media/data_mgnregs_odisha_2019-20_pc_expenditure.78b1373c.csv"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9354eded.js",
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.dfd42dbc.chunk.js",
-    "static/css/main.a4b7ee2a.chunk.css",
-    "static/js/main.17db985f.chunk.js"
+    "static/css/main.e0da9a22.chunk.css",
+    "static/js/main.5db748f2.chunk.js"
   ]
 }
