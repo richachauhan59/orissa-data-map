@@ -1,29 +1,42 @@
 .Data {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.dataPanel{
-    height: 80vh;
-    width: 54vh ;
-    background-color: #cea32c47;
-    border: black solid 2px;
+table {
+  width: 100%;
+  height: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3%;
+  font-size: large;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 20px;
-    font-size: large;
-  }
-
-table{
-    width: 54vh ;
+tr > td:first-child {
+  font-weight: 600;
+  padding-left: 10px;
+}
+tr > td:nth-child(2) {
+  padding: 5px;
+  text-align: right;
 }
 
-tr > td:first-child{
-    font-weight: 600;
-    padding-left: 10px;
+.dataPane {
+  background-color: #2ddec5d1;
+  color: white;
+  background-image: linear-gradient(115deg, #040801eb, transparent);
+}
+
+.header {
+  background-image: linear-gradient(45deg, #110c50f2, #131514ed);
+  justify-content: center;
+  margin-bottom: 50px;
+  color: white;
+  padding: 20px;
 }
 
 /* .tooltip{
@@ -32,3 +45,60 @@ tr > td:first-child{
     background-color:transparent;
     border: transparent;
 } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .dataPane {
+    /* width: 30%; */
+    min-height: 100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .dataPane {
+    /* width: 30%; */
+    min-height: 100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .Map {
+    width: 70%;
+  }
+  .dataPane {
+    width: 30%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .Map {
+    width: 70%;
+  }
+  .dataPane {
+    width: 30%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
