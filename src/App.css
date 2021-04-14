@@ -25,3 +25,10 @@ tr > td:first-child{
     font-weight: 600;
     padding-left: 10px;
 }
+
+/* .tooltip{
+    color: black;
+    font-weight: 500;
+    background-color:transparent;
+    border: transparent;
+} */
