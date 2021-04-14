@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/orissa-data-map/static/css/main.21e0e18a.chunk.css",
-    "main.js": "/orissa-data-map/static/js/main.84b214d3.chunk.js",
-    "main.js.map": "/orissa-data-map/static/js/main.84b214d3.chunk.js.map",
-    "runtime-main.js": "/orissa-data-map/static/js/runtime-main.9354eded.js",
-    "runtime-main.js.map": "/orissa-data-map/static/js/runtime-main.9354eded.js.map",
+    "main.css": "/orissa-data-map/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/orissa-data-map/static/js/main.9a2823f5.chunk.js",
+    "main.js.map": "/orissa-data-map/static/js/main.9a2823f5.chunk.js.map",
+    "runtime-main.js": "/orissa-data-map/static/js/runtime-main.11cc7924.js",
+    "runtime-main.js.map": "/orissa-data-map/static/js/runtime-main.11cc7924.js.map",
     "static/css/2.c1e28d34.chunk.css": "/orissa-data-map/static/css/2.c1e28d34.chunk.css",
-    "static/js/2.3d73206d.chunk.js": "/orissa-data-map/static/js/2.3d73206d.chunk.js",
-    "static/js/2.3d73206d.chunk.js.map": "/orissa-data-map/static/js/2.3d73206d.chunk.js.map",
-    "static/js/3.33bb6d89.chunk.js": "/orissa-data-map/static/js/3.33bb6d89.chunk.js",
-    "static/js/3.33bb6d89.chunk.js.map": "/orissa-data-map/static/js/3.33bb6d89.chunk.js.map",
+    "static/js/2.385d05b4.chunk.js": "/orissa-data-map/static/js/2.385d05b4.chunk.js",
+    "static/js/2.385d05b4.chunk.js.map": "/orissa-data-map/static/js/2.385d05b4.chunk.js.map",
+    "static/js/3.329a8b12.chunk.js": "/orissa-data-map/static/js/3.329a8b12.chunk.js",
+    "static/js/3.329a8b12.chunk.js.map": "/orissa-data-map/static/js/3.329a8b12.chunk.js.map",
     "index.html": "/orissa-data-map/index.html",
     "static/css/2.c1e28d34.chunk.css.map": "/orissa-data-map/static/css/2.c1e28d34.chunk.css.map",
-    "static/css/main.21e0e18a.chunk.css.map": "/orissa-data-map/static/css/main.21e0e18a.chunk.css.map",
-    "static/js/2.3d73206d.chunk.js.LICENSE.txt": "/orissa-data-map/static/js/2.3d73206d.chunk.js.LICENSE.txt",
+    "static/css/main.6dea0f05.chunk.css.map": "/orissa-data-map/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.385d05b4.chunk.js.LICENSE.txt": "/orissa-data-map/static/js/2.385d05b4.chunk.js.LICENSE.txt",
     "static/media/data_mgnregs_odisha_2019-20_pc_expenditure.78b1373c.csv": "/orissa-data-map/static/media/data_mgnregs_odisha_2019-20_pc_expenditure.78b1373c.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.9354eded.js",
+    "static/js/runtime-main.11cc7924.js",
     "static/css/2.c1e28d34.chunk.css",
-    "static/js/2.3d73206d.chunk.js",
-    "static/css/main.21e0e18a.chunk.css",
-    "static/js/main.84b214d3.chunk.js"
+    "static/js/2.385d05b4.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.9a2823f5.chunk.js"
   ]
 }
