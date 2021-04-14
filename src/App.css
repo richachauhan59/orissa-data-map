@@ -98,6 +98,7 @@ tr > td:nth-child(2) {
   }
   .Map {
     width: 70%;
+    height: "80vh";
   }
   .dataPane {
     width: 30%;
@@ -108,9 +109,6 @@ tr > td:nth-child(2) {
   .header{
     padding: 20px;
     margin-bottom: 20px;
-  }
-  .Map{
-    height: "80vh";
   }
 }
 
@@ -124,6 +122,7 @@ tr > td:nth-child(2) {
   }
   .Map {
     width: 70%;
+    height: "80vh";
   }
   .dataPane {
     width: 30%;
@@ -134,9 +133,6 @@ tr > td:nth-child(2) {
   .header{
     padding: 20px;
     margin-bottom: 20px;
-  }
-  .Map{
-    height: "80vh";
   }
 }
 
