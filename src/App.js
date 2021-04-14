@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import mapData from "./data/map.json";
-import { MapContainer, GeoJSON, TileLayer, Tooltip } from "react-leaflet";
+import { MapContainer, GeoJSON, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import * as d3 from "d3";
 import mainData from "./data/data_mgnregs_odisha_2019-20_pc_expenditure.csv";
@@ -9,7 +9,7 @@ import "./App.css";
 const mData = [];
 d3.csv(mainData, function (mainData) {
   mData.push(mainData);
-  console.log(mainData);
+  // console.log(mainData);
 });
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
   const onEachRegion = (region, layer) => {
     const regionName = region.properties.pc_name;
-    console.log();
+    // console.log();
     // layer.bindTooltip(regionName, {permanent:true, sticky:true, className:"tooltip"});
     layer.bindTooltip(regionName);
     layer.on("click", function (e) {
@@ -68,10 +68,15 @@ function App() {
             height: "80vh",
             border: "black solid 2px",
           }}
+          bounds={[
+            [24.407138, 79.085561],
+            [16.804541, 88.889092],
+          ]}
           zoom={7}
           center={[20, 85]}
           minZoom={7}
           maxZoom={8}
+          
         >
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
