@@ -93,7 +93,7 @@ function App() {
               <thead>
                 <th colSpan="2">
                   <h3>Parliamentary Constituency</h3>
-                  <h1> {data["Parliamentary Constituency"]}</h1>
+                  <h2> {data["Parliamentary Constituency"]}</h2>
                   </th>
               </thead>
                 <tbody>
