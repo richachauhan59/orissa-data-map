@@ -65,8 +65,8 @@ tr > td:nth-child(2) {
     padding: 20px;
   }
   .Map{
-    height: 50vh;
-    /* zoom: -10; */
+    height: 80vh;
+    zoom: 0.40;
   }
 }
 
@@ -87,7 +87,8 @@ tr > td:nth-child(2) {
     padding: 20px;
   }
   .Map{
-    height: 50vh;
+    height: 80vh;
+    zoom: 0.70;
   }
 }
 
@@ -100,6 +101,7 @@ tr > td:nth-child(2) {
   .Map {
     width: 70%;
     height: 80vh;
+    zoom: 0.8;
   }
   .dataPane {
     width: 30%;
@@ -124,6 +126,7 @@ tr > td:nth-child(2) {
   .Map {
     width: 70%;
     height: 80vh;
+    zoom: 1;
   }
   .dataPane {
     width: 30%;
