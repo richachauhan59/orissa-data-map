@@ -64,10 +64,6 @@ function App() {
       <div className="container">
         <MapContainer
           className="Map"
-          style={{
-            height: "80vh",
-            border: "black solid 2px",
-          }}
           bounds={[
             [24.407138, 79.085561],
             [16.804541, 88.889092],

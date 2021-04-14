@@ -37,6 +37,10 @@ tr > td:nth-child(2) {
   color: white;
 }
 
+.Map{
+  border: "black solid 1px",
+}
+
 /* .tooltip{
     color: black;
     font-weight: 500;
@@ -60,6 +64,9 @@ tr > td:nth-child(2) {
   .header{
     padding: 20px;
   }
+  .Map{
+    height: "50vh";
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -77,6 +84,9 @@ tr > td:nth-child(2) {
   }
   .header{
     padding: 20px;
+  }
+  .Map{
+    height: "50vh";
   }
 }
 
@@ -98,6 +108,9 @@ tr > td:nth-child(2) {
   .header{
     padding: 20px;
     margin-bottom: 20px;
+  }
+  .Map{
+    height: "80vh";
   }
 }
 
@@ -121,6 +134,9 @@ tr > td:nth-child(2) {
   .header{
     padding: 20px;
     margin-bottom: 20px;
+  }
+  .Map{
+    height: "80vh";
   }
 }
 
