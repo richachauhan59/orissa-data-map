@@ -23,8 +23,8 @@ function App() {
   const onEachRegion = (region, layer) => {
     const regionName = region.properties.pc_name;
     // console.log();
-    // layer.bindTooltip(regionName, {permanent:true, sticky:true, className:"tooltip"});
-    layer.bindTooltip(regionName);
+    layer.bindTooltip(regionName, {permanent:true, className:"tooltip"});
+    // layer.bindTooltip(regionName);
     layer.on("click", function (e) {
       mData.map(
         (item) =>
@@ -42,12 +42,14 @@ function App() {
 
     layer.on("mouseover", function (e) {
       e.target.setStyle({
+        fillColor: "yellow",
         fillOpacity: "0.9",
       });
     });
     layer.on("mouseout", function (e) {
       e.target.setStyle({
         fillOpacity: "0.2",
+        fillColor: "#0a443cfc",
       });
     });
   };

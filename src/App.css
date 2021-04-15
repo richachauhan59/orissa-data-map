@@ -41,12 +41,19 @@ tr > td:nth-child(2) {
   border: "black solid 1px",
 }
 
-/* .tooltip{
-    color: black;
-    font-weight: 500;
-    background-color:transparent;
-    border: transparent;
-} */
+.tooltip{
+    color: white;
+    background-color: #052c79c2;
+    border: #e8e3e31c;
+    font-size: 0.8em;
+}
+
+div.tooltip:hover{
+  color: white;
+  background-color: #869bc5c2;
+  border: #e8e3e31c;
+  font-size: 1em;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
